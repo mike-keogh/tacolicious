@@ -1,0 +1,29 @@
+{
+  "tacos": [
+    {
+      "id": 1,
+      "name": "Wintes Tacos",
+      "image": "/images/tacos1.jpg",
+      "flavour": "Cheese"
+    },
+    {
+      "id": 2,
+      "name": "Spring Tacos",
+      "image": "/images/tacos2.jpg",
+      "flavour": "Meat"
+    },
+    {
+      "id": 3,
+      "name": "Summer tacos",
+      "image": "/images/tacos3.jpg",
+      "flavour": "Chicken"
+    },
+    {
+      "id": 4,
+      "name": "Autumn Tacos",
+      "image": "/images/tacos4.jpg",
+      "flavour": "SuperHot"
+    },
+
+  ]
+}
