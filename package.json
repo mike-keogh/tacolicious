@@ -1,0 +1,29 @@
+{
+  "name": "tacolicious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-keogh/tacolicious.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike-keogh/tacolicious/issues"
+  },
+  "homepage": "https://github.com/mike-keogh/tacolicious#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "nodemon": "^1.11.0",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.7.0"
+  }
+}
