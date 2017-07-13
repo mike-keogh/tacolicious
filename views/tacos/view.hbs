@@ -5,3 +5,25 @@
   <div>Name: {{name}}</div>
   <div>Flavour: {{flavour}}</div>
 </div>
+
+<form class="form" action="/puppies/edit/{{id}}" method="post">
+
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="">
+  </label>
+
+  <label for="number" class="form-item">
+    Number:
+    <input type="text" name="breed" value="{{breed}}">
+  </label>
+
+  <label for="sauce" class="form-item">
+    Sauce:
+    <input type="text" name="sauce" value="{{owner}}">
+  </label>
+
+  <input type="hidden" name="image" value="{{image}}">
+
+  <input type="submit" name="" value="Place Order">
+</form>
