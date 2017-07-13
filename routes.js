@@ -13,7 +13,7 @@ router.get("/index", function (req, res) {
   res.render("tacos/index", data)
 })
 
-router.get('/view/:id', function(req, res) {
+router.get('/index/view/:id', function(req, res) {
   var id = req.params.id
   var orderTaco = data.tacos.find(function(taco) {
     return taco.id == id
