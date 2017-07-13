@@ -2,7 +2,7 @@
   "tacos": [
     {
       "id": 1,
-      "name": "Wintes Tacos",
+      "name": "Winter Tacos",
       "image": "/images/tacos1.jpg",
       "flavour": "Cheese"
     },
