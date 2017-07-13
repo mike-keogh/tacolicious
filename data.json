@@ -3,29 +3,25 @@
     {
       "id": 1,
       "name": "Wintes Tacos",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
+      "image": "/images/tacos1.jpg",
       "flavour": "Cheese"
     },
     {
       "id": 2,
       "name": "Spring Tacos",
-      "owner": "Chloe",
-      "image": "/images/puppy2.jpg",
+      "image": "/images/tacos2.jpg",
       "flavour": "Meat"
     },
     {
       "id": 3,
       "name": "Summer tacos",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
+      "image": "/images/tacos3.jpg",
       "flavour": "Chicken"
     },
     {
       "id": 4,
       "name": "Autumn Tacos",
-      "owner": "Sam",
-      "image": "/images/puppy4.jpg",
+      "image": "/images/tacos4.jpg",
       "flavour": "SuperHot"
     },
 
