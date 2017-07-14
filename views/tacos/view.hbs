@@ -6,24 +6,22 @@
   <div>Flavour: {{flavour}}</div>
 </div>
 
-<form class="form" action="/puppies/edit/{{id}}" method="post">
+<form class="form" action="/index/view/yourOrder" method="post">
 
-  <label for="name" class="form-item">
-    Name:
-    <input type="text" name="name" value="">
+  <label for="customername" class="form-item">
+    Customer Name:
+    <input type="text" name="name" value="{{customername}}">
   </label>
 
   <label for="number" class="form-item">
     Number:
-    <input type="text" name="breed" value="{{breed}}">
+    <input type="text" name="number" value="{{number}}">
   </label>
 
   <label for="sauce" class="form-item">
     Sauce:
-    <input type="text" name="sauce" value="{{owner}}">
+    <input type="text" name="sauce" value="{{sauce}}">
   </label>
-
-  <input type="hidden" name="image" value="{{image}}">
 
   <input type="submit" name="" value="Place Order">
 </form>
