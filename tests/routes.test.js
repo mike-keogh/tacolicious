@@ -13,9 +13,19 @@ test('tests are passing', function(t) {
 test('home route works', function(t) {
 
   request(app)
-  .get('/')
+  .get('/index')
   .end(function(err, res) {
     t.equal(res.status, 200, 'status code ok')
+    t.end()
+  })
+})
+
+test('View routes working', function(t){
+  request(app)
+  .get('/view/1')
+  .end(function(err, res) {
+    var $ = cheerio.load(res.text)
+    t.equal($("input").length, 5)
     t.end()
   })
 })
