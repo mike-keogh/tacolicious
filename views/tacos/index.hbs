@@ -4,19 +4,27 @@
     <meta charset="utf-8">
     <title>Tacolicious</title>
     <link rel="stylesheet" href="/styles.css">
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   </head>
 <body>
 
 <div class="container">
-  {{#each tacos}}
-  <div class="tacos-list">
 
-    <p> {{name}} </p>
-    <a href="./index/view/{{id}}"><img src="{{image}}"/></a>
+  <div class="row">
+
+    {{#each tacos}}
+      <div class="tacos-list four columns">
+        <h3> {{name}} </h3>
+        <a href="./index/view/{{id}}"><img src="{{image}}"/></a>
+      </div>
+    {{/each}}
+
   </div>
-  {{/each}}
+
 </div>
 
+{{>footer}}
 
 </body>
 </html>
