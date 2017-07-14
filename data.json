@@ -5,7 +5,7 @@
       "name": "Winter Tacos",
       "image": "/images/tacos1.jpg",
       "flavour": "Cheese"
-      
+
     },
     {
       "id": 2,
@@ -27,29 +27,16 @@
     },
     {
       "id": 5,
-      "name": "Winter Tacos",
-      "image": "/images/brian-images/tacos5.jpg",
-      "flavour": "Trumpster"
-    },
-    {
-      "id": 6,
       "name": "Spring Tacos",
       "image": "/images/brian-images/tacos6.jpg",
       "flavour": "WaffleTaco"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Summer tacos",
       "image": "/images/brian-images/tacos7.jpg",
       "flavour": "MagicTaco"
-    },
-    {
-      "id": 8,
-      "name": "Autumn Tacos",
-      "image": "/images/brian-images/tacos8.jpg",
-      "flavour": "BabyTaco"
     }
-
 
   ]
 }
