@@ -4,6 +4,14 @@ var data = require("./data.json")
 var order = require("./order.json")
 var fs = require('fs')
 
+
+function readOrder(callback) {
+  fs.readFile(__dirname + '/order.json', 'utf8', (err, order) => {
+    if (err) throw err
+    callback(JSON.parse(order))
+  })
+}
+
 router.get("/", function(req, res){
 
   res.redirect('/index')
@@ -15,7 +23,9 @@ router.get("/index", function (req, res) {
 })
 
 router.get("/index/view/yourOrder", function (req, res) {
-  res.render("tacos/order", order)
+  readOrder(function(order) {
+    res.render("tacos/order", order)
+  })
 })
 
 router.get('/index/view/:id', function(req, res) {
