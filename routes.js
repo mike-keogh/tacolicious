@@ -3,7 +3,7 @@ var router = express.Router()
 var fs = require('fs')
 
 function readOrder(callback) {
-  fs.readFile('./order.json', 'utf8', (err, order) => {
+  fs.readFile(__dirname + '/order.json', 'utf8', (err, order) => {
     if (err) throw err
     callback(JSON.parse(order))
   })
