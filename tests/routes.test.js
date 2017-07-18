@@ -71,9 +71,9 @@ test('yourOrder page contains input from form', function(t) {
         console.log(list[2].children);
         t.equal(list.length, 3, 'Form data tranferred over')
         if (list[0].children.length !== 0) {
-          t.equal(list[0].children[0].data, data.name, 'Form data tranferred over')
-          t.equal(list[1].children[0].data, data.number, 'Form data tranferred over')
-          t.equal(list[2].children[0].data, data.sauce, 'Form data tranferred over')
+          t.equal(list[0].children[0].data, data.name, 'Form data tranferred over 0')
+          t.equal(list[1].children[0].data, data.number, 'Form data tranferred over 1')
+          t.equal(list[2].children[0].data, data.sauce, 'Form data tranferred over 2')
         }
         t.end()
 
